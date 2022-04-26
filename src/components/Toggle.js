@@ -38,7 +38,7 @@ const Toggle = () => {
     const [isToggle, setToggle] = useState("base");
 
     const onBtnChange = (e) => {
-        console.log(e.target.value);
+        //console.log(e.target.value);
         setToggle(e.target.value);
     }
 

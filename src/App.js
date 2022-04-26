@@ -1,10 +1,6 @@
-import Toggle from "./components/Toggle";
-import styled from "styled-components";
 import './App.css';
-
-const Component = styled.div`
-
-`;
+import Toggle from "./components/Toggle";
+import Tab from './components/Tab';
 
 function App() {
   return (
@@ -12,6 +8,10 @@ function App() {
       <div className="component">
         <h1>1. Toggle.js</h1>
         <Toggle/>
+      </div>
+      <div className="component">
+        <h1>2. Tab.js</h1>
+        <Tab/>
       </div>
     </div>
   );
