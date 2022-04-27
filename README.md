@@ -20,7 +20,9 @@
 따라서 True/False 만 설정해서 True 면 기본 항목을, False 면 상세 항목을 선택하게 할 수도 있었음
 <br>
 하지만 주어진 예시에서 선택한 항목을 보여주도록 하는 것 같아 기본 항목은 'base' 값을, 상세 항목은 'detail' 값을 갖도록 했다.
+<br>
 * 만약 T/F 로 구현할 경우
+
 ```
 const [isToggle, setToggle] = useState(true);
 
@@ -36,6 +38,8 @@ const onBtnChange = () => {
     <span>상세</span>
 }
 ```
+
+<br>
 => 이 경우, 라디오 버튼을 누를 때마다 isToggle 값이 바뀌므로
 <br>
 **기본 상태에서 기본 버튼 클릭 -> 상세** 혹은 그 반대의 경우도 가능하게 된다.
