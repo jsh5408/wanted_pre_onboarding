@@ -117,14 +117,3 @@ const Slider = () => {
 }
 
 export default Slider;
-
-/**
- 
-<Buttons>
-                <Button value={1} onClick={onBtnClick}>1%</Button>
-                <Button value={25} onClick={onBtnClick}>25%</Button>
-                <Button value={50} onClick={onBtnClick}>50%</Button>
-                <Button value={75} onClick={onBtnClick}>75%</Button>
-                <Button value={100} onClick={onBtnClick}>100%</Button>
-            </Buttons>
- */
