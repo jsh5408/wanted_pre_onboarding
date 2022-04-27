@@ -79,12 +79,6 @@ const Button = styled.button`
     }
 `;
 
-//border-color: lightseagreen;
-/*
--webkit-appearance: none;
-        background: lightseagreen;
-*/
-
 const Slider = () => {
     const [value, setValue] = useState("50");
     
