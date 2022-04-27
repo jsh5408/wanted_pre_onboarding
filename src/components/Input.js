@@ -16,6 +16,8 @@ const GlobalStyle = createGlobalStyle`
 const Email = styled.form`
     position: relative;
     padding: 20px;
+    display: grid;
+    justify-content: center;
 `;
 
 const EmailInput = styled.input`
@@ -35,9 +37,9 @@ const EmailError = styled.div`
 `;
 
 const CheckIcon = styled(FontAwesomeIcon)`
-    position: absolute;
-    left: 63%;
-    top: 49px;
+    position: relative;
+    left: 90%;
+    top: -24px;
     color: gray;
 
     &.ok {
@@ -48,6 +50,8 @@ const CheckIcon = styled(FontAwesomeIcon)`
 const Password = styled.form`
     position: relative;
     padding: 20px;
+    display: grid;
+    justify-content: center;
 `;
 
 const PasswordInput = styled.input`
@@ -59,14 +63,17 @@ const PasswordInput = styled.input`
 `;
 
 const EyeIcon = styled(FontAwesomeIcon)`
-    position: absolute;
-    left: 63%;
-    top: 48px;
+    position: relative;
+    left: 90%;
+    top: -24px;
     cursor: pointer;
     visibility: hidden;
+    z-index: 1;
 
     &.open {
         color: lightseagreen;
+        top: -40px;
+        left: 90%;
     }
 
     &.show {
