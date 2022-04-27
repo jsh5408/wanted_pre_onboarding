@@ -30,6 +30,7 @@ const EmailError = styled.div`
     visibility: hidden;
     &.active {
         visibility: visible; 
+        color: red;
     }
 `;
 
